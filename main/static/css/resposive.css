@@ -1,0 +1,189 @@
+@media screen and (max-width: 1100px) {
+
+    /* MENU */
+    #escondido{
+        top: 9%;
+        right: 1%;
+        width: 50vw;
+        height: 87vh;
+    }
+    
+    .contentMenu ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        list-style: none;   
+        text-align: center;
+    }
+
+    .contentMenu ul li{
+        padding: 3.5vh 0;
+        margin: 3vh 0;
+    }
+
+    /* SOBRE */
+    .homeContainer {
+        grid-template-columns: 100vw;
+    }
+
+    .socialLinks div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 33vw;
+        height: 5vh;
+
+        border: 2px solid rgb(12, 12, 12);
+        border-collapse: collapse;
+    }
+
+    .socialLinks{
+        margin-right: 40px;
+    }
+
+    .aboutContainer{
+        display: grid;
+        grid-template-columns: 90vw;
+    }
+
+    .aboutContainer p{
+        font-size: 15pt;
+    }
+
+    .socialIcons{
+        top: 80%;
+        right: 1.5%;
+    }
+
+    /* Técnologias */
+    .tecnologiasContainer {
+        display: grid;
+        grid-template-columns: 80vw;
+        margin: 8vh 0;
+    }
+
+    .tecnologiasIcons img {
+        max-width: 100%;
+    }
+
+    .tecnologiasText h1 {
+        font-size: 20pt;
+    }
+    
+    .tecnologiasText p {
+        font-size: 12pt;
+    }
+    
+    
+    .tecnologiasImages{
+        display: grid;
+        grid-template-columns: 33.6% 33.6% 33.6%;
+        column-gap: .2vw;
+        row-gap: 1vh;
+    }
+
+    /* DIVSOÕES DA ESQUERDA*/
+    .leftContent{
+        margin: 0;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    .leftContent h1{
+        margin-right: 20px;
+        font-size: 40pt;
+    }
+
+    .leftContent h2{
+        margin-right: 40px;
+        font-size: 15pt;
+    }
+
+    /* FOTOS */
+    .picture01 {
+        content: url(../images/pictures/foto-01-circle.png);
+        width: 90%;
+        max-width: 80vw;
+    }
+
+    .picture02 {
+        content: url(../images/pictures/foto-02-circle.png);
+        width: 90%;
+        max-width: 80vw;
+    }
+
+    /* PAGINA DE PROJETOS */
+    .projectsContainer {
+        display: grid;
+        grid-template-columns: 80vw;
+        margin: 3vh 0;
+    }
+
+    .projectThumb {
+        max-width: 80vw;
+        margin: 2vh 0;
+    }
+
+    .projectDescribe {
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 1100px) and (orientation: landscape){
+
+    /* MENU */
+    #escondido{
+        top: 15%;
+        height: 83vh;
+    }
+
+    .contentMenu ul li {
+        margin: 2vh 0;
+    }
+
+    .socialIcons{
+        top: 70%;
+        right: 1.5%;
+    }
+
+    /* TÉCNOLOGIAS */
+    
+    .tecnologiasImages{
+        display: grid;
+        grid-template-columns: 33.3% 33.3% 33.3%;
+        column-gap: .2vw;
+        row-gap: 1vh;
+    }
+
+    /*  FOTOS */
+
+    .picture01 {
+        width: 90%;
+        max-width: 50vw;
+        max-height: 50vh;
+    }
+
+    .picture02 {
+        width: 90%;
+        max-width: 50vw;
+        max-height: 50vh;
+        margin-left: 30vw;
+    }
+
+    /* DIVS */
+
+    .socialLinks div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 25vw;
+        height: 5vh;
+
+        border: 2px solid rgb(12, 12, 12);
+        border-collapse: collapse;
+    }
+
+    .socialLinks div a{
+        font-size: 10pt;
+    }
+}

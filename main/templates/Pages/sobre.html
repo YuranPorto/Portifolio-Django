@@ -1,0 +1,24 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Sobre mim</title>
+    <link rel="stylesheet" href="{% static 'css/sobre.css' %}">
+    <link rel="stylesheet" href="{% static 'css/responsive.css' %}">
+</head>
+<body>
+    <section class="centralizeBox">
+        <a name="sobre"></a>
+        <div class="aboutContainer">
+            <article class="leftContent">
+                <h1>Sobre mim:</h1>
+                <p>Meu nome é Yuran Porto, atualmente estou fazendo curso técnico em informática para internet na UNICORP-Tec e estudando separadamente sobre, python e django framework. </p>
+                <p>Sou apaixonado pela programação desde muito jovem, sempre querendo saber mais sobre "oque fazer" ou "Como fazer" as coisas incriveis que vejo pela internet.</p>
+            </article>
+            <aside class="rigthContent">
+                <img class="picture02" src="{% static '/images/pictures/foto-02-circle.png' %}" alt="Yuran Porto - Desenvolvedor Back-end">
+            </aside>
+        </div>
+    </section>
+</body>
+</html>

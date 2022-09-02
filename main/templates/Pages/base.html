@@ -1,0 +1,61 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yuran Porto</title>
+    <link rel="shortcut icon" href="../static/images/favicon.png" type="image/PNG">
+    <link rel="stylesheet" href="{% static 'css/base.css' %}" >
+    <link rel="stylesheet" href="{% static 'css/responsive.css' %}" >
+</head>
+<body>
+    <header class="headerContainer">
+        <div class="header">
+            
+            <script src="assets/js/mobile-navbar.js"></script>
+            <img  class="menuIcon" src="{% static 'images/icons/hamburger-square.png' %}" alt="" width="50px" onclick="Mudarestado('escondido')">
+
+            <div class="socialIcons">
+                <a href="https://github.com/YuranPorto" target="_blank"><img src="{% static 'images/icons/GitHub-Mark-64px.png' %}" width="40px"></a>
+                <a href="https://www.linkedin.com/in/yuran-porto" target="_blank"><img src="{% static 'images/icons/LinkedIn-Mark-64px.png' %}" width="40px"></a>
+            </div>
+
+            <nav class="menu" id="escondido" style="display: none;">
+                <div class="contentMenu">
+                    <ul>
+                        <a href="#inicio">
+                            <li>
+                                Home
+                            </li>
+                        </a>
+                        <a href="#sobre">
+                            <li>
+                                Sobre mim
+                            </li>
+                        </a>
+                        <a href="#tecnologias">
+                            <li>
+                                Técnologias
+                            </li>
+                        </a>
+                        <a href="#projetos">
+                            <li>
+                                Projetos
+                            </li>
+                        </a>
+                        
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+    {% block content %}
+        
+    {% endblock %}
+
+    <script src="{% static 'js/menu.js' %}"></script>
+    <script src="{% static 'js/tecnologias.js' %}"></script>
+</body>
+</html>

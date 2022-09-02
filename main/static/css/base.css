@@ -1,0 +1,162 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,700;1,300;1,900&display=swap');
+
+:root{
+    --based-color: #30ACB3;
+    --based-color-transparent: #30acb352;
+    --ligth-color: #91FAFF;
+    --ligth-transparent-color: #91faff67;
+    --middle-color: #6DBBBF;
+    --shadow-color: #227B7F;
+    --shadow-transparent-color: #227a7fc9;
+
+    --text-font: 'Merriweather', serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #eeeeee;
+    overflow-x: hidden;
+}
+
+strong{
+    text-decoration: none;
+    font-weight: normal;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(12, 12, 12);;
+}
+
+a.link {
+    display: block;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+}
+
+p{
+    text-align: justify;
+}
+
+/* MENU */
+
+#escondido{
+    display: none;
+    justify-content: center;
+    align-items: space-between;
+    position: fixed;
+    top: 9%;
+    right: 1%;
+
+    background-color: var(--shadow-transparent-color);
+    backdrop-filter: blur(2px);
+
+    width: 25vw;
+    height: 87vh;
+    border: 2px solid var(--ligth-transparent-color);
+    border-radius: 15px 0 0 15px;
+
+    animation-name: animMenu;
+    animation-duration: .5s;
+    
+    opacity: 0;
+    transform: translateX(25px);
+    animation-fill-mode: forwards;
+
+    overflow: hidden;
+}
+
+.contentMenu ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    list-style: none;
+
+    text-align: center;
+}
+
+
+.contentMenu ul li {
+    font-size: 22pt;
+    font-variant: small-caps;
+    margin: 5vh 0;
+    padding: 30px;
+
+    transition: .3s;
+}
+
+.contentMenu ul li:hover{
+    background-color: var(--middle-color);
+}
+
+.menuIcon{
+    position: fixed;
+    top: 1vh;
+    right: 1vw;
+    cursor: pointer;
+}
+
+.menuIcon:hover{
+    opacity: 50%;
+}
+
+.checkboxWrapper:checked{
+    display: none;
+}
+
+.hamburgerMenu {
+    margin: 0;
+    position: fixed;
+    right: 1%;
+    top: 1%;
+
+    background-color: var(--middle-color);
+}
+
+.hamburgerMenu img {
+    width: 45px;
+    content: url(../images/icons/hamburger-square.png);
+}
+
+.hamburgerMenu button{
+    background-color: var(--based-color-transparent);
+    border: 0;
+    border-radius: 0;
+    width: 45px;
+    height: 45px;
+
+}
+
+.socialIcons{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 10%;
+    right: 1.5%;
+}
+
+.socialIcons img:hover{
+    opacity: 50%;
+}
+
+nav ul {
+    margin: 5px;
+    display: none;
+}
+
+@keyframes animMenu {
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}

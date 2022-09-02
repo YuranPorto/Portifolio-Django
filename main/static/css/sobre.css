@@ -1,0 +1,34 @@
+.centralizeBox{
+    display: flex;
+    justify-content: center;
+    max-width: 100vw;
+    max-width: 100vw;
+    background-color: rgb(241, 241, 241);
+    padding-bottom: 5vh;
+    padding-top: 2vh;
+
+    background-image: url(../images/pictures/bg01.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+    box-shadow: inset 0px 2px 7px rgba(0, 0, 0, 0.404);
+}
+
+.aboutContainer{
+    display: grid;
+    grid-template-columns: 50vw 15vw;
+}
+
+.aboutContainer .leftContent p{
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.342);
+}
+
+.aboutContainer .rigthConent {
+    justify-content: flex-end;
+    text-align: left;
+}
+
+.picture02 {
+    max-width: 25vw;
+}
