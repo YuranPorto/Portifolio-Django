@@ -58,3 +58,26 @@
     color: #48b6d1;
     text-decoration: underline;
 }
+
+@media screen and (max-width: 1100px) {
+
+    .container-tecnologias {
+        grid-template-columns: 49% 49%;
+    }
+}
+
+@media screen and (max-width: 780px) {
+
+    .container-tecnologias {
+        grid-template-columns: 80%;
+    }
+}
+
+@media screen and (max-width: 1100px) and (orientation: landscape){
+    .container-tecnologias {
+        grid-template-columns: 49% 49%;
+    }
+    .conteudo-tecnologias{
+        max-width: 100vh;
+    }
+}

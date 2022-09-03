@@ -2,15 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="72936b96-56f3-4bf0-a27a-bb99b5dbc00a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/PortigolioDjango.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/static/images/favicon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portifolio/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/portifolio/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/static/css/resposive.css" beforeDir="false" afterPath="$PROJECT_DIR$/main/static/css/resposive.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/static/css/tecnologias.css" beforeDir="false" afterPath="$PROJECT_DIR$/main/static/css/tecnologias.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/templates/Pages/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/Pages/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/templates/Pages/inicio.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/Pages/inicio.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/templates/Pages/sobre.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/Pages/sobre.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/templates/Pages/tecnologias.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/Pages/tecnologias.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
