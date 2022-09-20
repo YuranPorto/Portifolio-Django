@@ -17,11 +17,10 @@ class Base(models.Model):
 
 
 class Sobre(Base):
-    nome = 'Edite o texto da area sobre. (Maximo 500 caractéres)'
     descricao = models.TextField('Texto:', max_length=500)
 
     def __str__(self):
-        return self.nome
+        return self.descricao
 
 
 class Tecnologias(Base):

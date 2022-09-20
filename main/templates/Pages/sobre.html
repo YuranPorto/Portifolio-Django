@@ -7,8 +7,9 @@
         <div class="aboutContainer">
             <article class="leftContent">
                 <h1>Sobre mim:</h1>
-                <p>Meu nome é Yuran Porto, atualmente estou fazendo curso técnico em informática para internet na UNICORP-Tec e estudando separadamente sobre, python e django framework. </p>
-                <p>Sou apaixonado pela programação desde muito jovem, sempre querendo saber mais sobre "oque fazer" ou "Como fazer" as coisas incriveis que vejo pela internet.</p>
+                {% for conteudo in sobre %}
+                    <p>{{ conteudo.descricao }}</p>
+                {% endfor %}
             </article>
             <aside class="rigthContent">
                 <img class="picture02" src="{% static '/images/pictures/foto-02-circle.png' %}" alt="Yuran Porto - Desenvolvedor Back-end">
