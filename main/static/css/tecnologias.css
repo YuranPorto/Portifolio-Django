@@ -48,10 +48,14 @@
     font-variant: small-caps;
 }
 
-.conteudo-tecnologias:hover{
+.conteudo-tecnologias:hover {
     box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.315);
     opacity: 100%;
     transition: .25s;
+}
+
+.conteudo-tecnologias:hover p{
+    color: rgba(0, 0, 0, 0.596);
 }
 
 .flex-conteudo > h1 > a:hover{

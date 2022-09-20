@@ -31,7 +31,7 @@ class Tecnologias(Base):
         ('Avançado', 'Mais de 2 anos'),
     )
     nome = models.CharField('técnologia:', max_length=15)
-    descricao = models.TextField('Descrição:', max_length=250)
+    descricao = models.TextField('Descrição:', max_length=400)
     nivel = models.CharField('Tempo de estudo:', max_length=15, choices=NIVEL_CHOICES)
     imagem = models.ImageField('Imagem da técnologia:', upload_to='Tecnologias')
     link = models.CharField('Link:', max_length=200)

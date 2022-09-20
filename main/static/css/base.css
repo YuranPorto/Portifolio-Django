@@ -203,6 +203,11 @@ footer {
     opacity: 100%;
 }
 
+.header-section{
+    text-align: center;
+    font-size: 55pt;
+}
+
 @keyframes animMenu {
     to {
         opacity: 1;
