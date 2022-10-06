@@ -19,3 +19,4 @@ static3==0.7.0
 tzdata==2022.2
 urllib3==1.26.12
 whitenoise==6.2.0
+
